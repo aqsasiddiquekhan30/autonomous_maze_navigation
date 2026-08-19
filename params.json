@@ -1,0 +1,6 @@
+{
+    "maze": {"width": 3.5 ,"height": 2.0,"wall_thickness": 0.05,"wall_height": 0.3,"start_horizontal_range": [0.15, 0.55],"start_vertical_range": [0.15, 0.55],"angular_range": [-3.141592653589793, 3.141592653589793],"goal_radius": 0.18},
+    "robot": {"wheel_radius": 0.10, "axle_length": 0.20, "max_speed": 8.0, "proximity": 8, "sensor_max_range": 1.0, "body_radius": 0.15},
+    "simulation":{"time_step": 0.0167,"steps_per_eval": 900,"trails_per_genome": 5},
+    "evolution": {"population_size": 100, "mutation_rate": 0.1, "crossover_rate": 0.5, "tournament_size": 5, "num_generations": 50}
+}
