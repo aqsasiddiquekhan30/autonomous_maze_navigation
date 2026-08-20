@@ -21,6 +21,7 @@ def load_params(key=None,file_path=None):
         params["maze"]["left_wall"] = fraction_in_range(0.18, 0.30)
         params["maze"]["right_wall"] = fraction_in_range(0.52, 0.68)
         params["maze"]["horizontal_gap"] = fraction_in_range(0.38, 0.48)
+        params["maze"]["vertical_gap"] = fraction_in_range(0.42, 0.58)
         return params["maze"]
     else:
         return params[key]
