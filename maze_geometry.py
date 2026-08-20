@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 from typing import List, Tuple
-import sys
-import os
+
 import initialization as i
 
 maze_params = i.load_params("maze", file_path="params.json")
